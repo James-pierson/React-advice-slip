@@ -5,6 +5,7 @@ export default class Advice extends Component {
     // Sets advice to blank so it can be declared
         state = { advice: ''};
 
+        // Signals if the axios calls sub-components properly
         componentDidMount() {
             this.fetchAdvice();
         }
