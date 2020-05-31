@@ -10,6 +10,7 @@ export default class Advice extends Component {
             this.fetchAdvice();
         }
 
+        // Function that calls API
         fetchAdvice = () => {
             axios.get("https://api.adviceslip.com/advice")
             .then((response) => {
