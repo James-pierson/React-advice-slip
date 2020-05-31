@@ -21,6 +21,7 @@ export default class Advice extends Component {
                 this.setState({advice})
             })
             .catch((error) => {
+                // Calls error if API fails
                 console.error(error)
             });
         }
