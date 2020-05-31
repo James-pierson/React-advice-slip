@@ -17,6 +17,7 @@ export default class Advice extends Component {
                 // Simplifies the response call
                 const { advice } = response.data.slip
 
+                // Sets state to the constant on line 18
                 this.setState({advice})
             })
             .catch((error) => {
