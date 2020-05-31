@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import axios from "axios";
 
 export default class Advice extends Component {
-    // Sets advice to null so it can be declared
+    // Sets advice to blank so it can be declared
         state = { advice: ''};
 
         componentDidMount() {
