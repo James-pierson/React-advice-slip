@@ -27,6 +27,7 @@ export default class Advice extends Component {
         }
  
     render() {
+        // Sets advice to the current state set by this.setState on line 20
         const { advice } = this.state;
         return(
             <h1>{advice}</h1>
