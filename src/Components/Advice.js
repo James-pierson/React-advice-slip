@@ -14,6 +14,7 @@ export default class Advice extends Component {
         fetchAdvice = () => {
             axios.get("https://api.adviceslip.com/advice")
             .then((response) => {
+                // Simplifies the response call
                 const { advice } = response.data.slip
 
                 this.setState({advice})
