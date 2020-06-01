@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+import timeDate from "./timeDate.js"
 
 export default class Advice extends Component {
     // Sets advice to blank so it can be declared
@@ -31,6 +32,7 @@ export default class Advice extends Component {
         const { advice } = this.state;
         return (
             <div className="app">
+                <timeDate />
                 <div className="card">
                     <h1 className="heading">{advice}</h1>
                     <button className="button" onClick={this.fetchAdvice}>
