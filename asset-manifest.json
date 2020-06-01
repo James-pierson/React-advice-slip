@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-advice-slip/static/css/main.ed43e060.chunk.css",
+    "main.js": "/React-advice-slip/static/js/main.cccc300f.chunk.js",
+    "main.js.map": "/React-advice-slip/static/js/main.cccc300f.chunk.js.map",
+    "runtime-main.js": "/React-advice-slip/static/js/runtime-main.f33626c0.js",
+    "runtime-main.js.map": "/React-advice-slip/static/js/runtime-main.f33626c0.js.map",
+    "static/js/2.c50e8c1e.chunk.js": "/React-advice-slip/static/js/2.c50e8c1e.chunk.js",
+    "static/js/2.c50e8c1e.chunk.js.map": "/React-advice-slip/static/js/2.c50e8c1e.chunk.js.map",
+    "index.html": "/React-advice-slip/index.html",
+    "precache-manifest.a72e9f7ee601e9649068e9422904133c.js": "/React-advice-slip/precache-manifest.a72e9f7ee601e9649068e9422904133c.js",
+    "service-worker.js": "/React-advice-slip/service-worker.js",
+    "static/css/main.ed43e060.chunk.css.map": "/React-advice-slip/static/css/main.ed43e060.chunk.css.map",
+    "static/js/2.c50e8c1e.chunk.js.LICENSE.txt": "/React-advice-slip/static/js/2.c50e8c1e.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/React-advice-slip/static/media/cityimg.3419c3ee.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f33626c0.js",
+    "static/js/2.c50e8c1e.chunk.js",
+    "static/css/main.ed43e060.chunk.css",
+    "static/js/main.cccc300f.chunk.js"
+  ]
+}
