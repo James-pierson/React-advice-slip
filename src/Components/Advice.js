@@ -30,14 +30,9 @@ export default class Advice extends Component {
         // Sets advice to the current state set by this.setState on line 20
         const { advice } = this.state;
         return (
-            <div className="App">
+            <div className="app">
                 <div className="card">
-                    <div className="card-header">
-                        <h1>{advice}</h1>
-                    </div>
-                    <div className="card-body">
-                        <button className="button" onClick={this.fetchAdvice}>New Quote</button>
-                    </div>
+                    <h1 className="heading">{advice}</h1>
                 </div>
             </div>
         )
